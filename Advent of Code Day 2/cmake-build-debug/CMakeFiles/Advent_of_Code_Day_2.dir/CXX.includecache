@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raspbian/AoC/Advent of Code Day 2/main.cpp
+iostream
+-
+limits
+-
+sstream
+-
+vector
+-
+iterator
+-
+
