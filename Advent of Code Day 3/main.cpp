@@ -17,7 +17,7 @@ void puzzleA(int input){
     if(axis < 0)
         axis *= -1; // We want the absolute value of the axis
     cout << "Nearest odd root of our input: " << root << endl <<  "Difference between odd square and our input: " << dif << endl << "Center of the side: " << center << endl << "Axis: " << axis << endl << "Steps to center of the circle: " << axis + center << endl;
-
+    // Another edit: This will not work if your input is on the upper or right site of the square, and I will not fix it as I have no use of it. Just a quick hint if anyone wants to try it theirselves: Use your (root-(2*root-2)) as it would be your actual position of root and it will work.
 }
 void puzzleB(){
     cout << "Puzzle B:\nhttps://oeis.org/A141481/b141481.txt\n";
