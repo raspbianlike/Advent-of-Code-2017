@@ -12,7 +12,7 @@ void puzzleA(int input){
         else
             i++;
     }
-    // Now we have our nearest even square root, which equals the side length.
+    // Now we have our nearest odd square root, which equals the side length.
     int dif = (root*root) - input, center = (root-1) / 2, axis = dif - center;
     if(axis < 0)
         axis *= -1; // We want the absolute value of the axis
